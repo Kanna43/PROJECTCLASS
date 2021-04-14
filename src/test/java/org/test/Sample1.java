@@ -23,11 +23,8 @@ public  class Sample1 {
 		return driver;
 	}
 
-	public static void loadUrl(String url) {
+	public static void loadUrlAndMaximize(String url) {
 		driver.get(url);
-	}
-
-	public static void maximize() {
 		driver.manage().window().maximize();
 	}
 
